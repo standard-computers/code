@@ -1,0 +1,8 @@
+vehicles [USR]
+
+window: "Dashboard: dashboard {
+    label: "Dashboard"
+    list: vehicles {
+        onselect: vehicle: .
+    }
+}

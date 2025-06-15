@@ -1,0 +1,5 @@
+user: USR {
+    protected name string NAME *
+    protected username string UNAME *
+    protected hash string HS *
+}

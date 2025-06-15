@@ -1,0 +1,17 @@
+^window: "Vehicle Manager", main {
+    label: "Welcome to Vehicle Manager"
+    form {
+        input: username {
+            label "Username"
+        }
+        protectedinput: psswd {
+            label "Password"
+        }
+        onsubmit {
+            me [USR] <username username, LIMIT 1>
+            if: me.hash = psswd {
+                dashboard: me
+            }: alert: "Incorrect Password"
+        }
+    }
+}

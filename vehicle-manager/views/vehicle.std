@@ -1,0 +1,7 @@
+window: "Vehicle", vehicle {
+
+    #Pull data from vehicle standard object passed in dashboard
+    label: (@VHL.make" / "@VHL.model)
+    label: @VHL.vin
+
+}

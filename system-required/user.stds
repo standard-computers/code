@@ -1,0 +1,13 @@
+user: USR {
+	protected userid string UID "$uuid" *
+	protected firstname string FNAME *
+	protected lastname string LNAME *
+	protected birthday string BDAY *
+	protected username string UNAME *
+	protected email string EMAIL *
+	protected phone string PHONE *
+	protected address string ADDR *
+	protected hash string:32 HSH *
+	protected created string CRTD "$now" *
+	protected modified string MDFD "$now" *
+}
