@@ -1,0 +1,9 @@
+contact: CNTCT {
+	protected firstname string FNAME *
+	protected middlename string MNAME
+	protected lastname string LNAME
+	protected birthday string BDAY
+	protected address string ADDR
+	protected phone string PHN
+	protected email string EML
+}

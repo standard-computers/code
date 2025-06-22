@@ -1,0 +1,8 @@
+timer: TMR {
+	protected user standard @USR *
+	protected name string
+	protected duration int *
+	protected start int *
+	protected stop int *
+	protected repeat boolean false
+}
