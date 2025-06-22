@@ -1,0 +1,15 @@
+location: LOC {
+    protected name string NM *
+    protected description string DESC
+    protected type string TYP
+    protected street string STRT
+    protected city string CTY *
+    protected territory string TRTY *
+    protected country string CNTRY *
+    protected postal string PSTL
+    protected established int EST
+    protected latitude double LAT
+    protected longitude double LNG
+    protected timezone string:32! TZ
+    protected origin string "$now" *
+}

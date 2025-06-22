@@ -1,0 +1,5 @@
+log: LOG {
+    protected timestamp string TMS "$now" *
+    protected code string:5 CDE *
+    protected message string MSG *
+}

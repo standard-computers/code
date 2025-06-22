@@ -1,0 +1,6 @@
+shortcut: SHCT {
+    protected user standard @USR *
+	protected name string *
+	protected created string "$now" *
+	protected uri string *
+}
